@@ -20,6 +20,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+"Getting changes";
+
 app.UseAuthorization();
 
 app.MapControllers();
